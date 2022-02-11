@@ -1,0 +1,30 @@
+{
+	"name": "t3gedu/kata-base",
+	"type": "project",
+	"license": "GPL 3+",
+	"autoload": {
+		"psr-4": {
+			"T3GEdu\\KataBase\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"T3GEdu\\KataBase\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Susanne Moog",
+			"email": "susanne.moog@typo3.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"phpunit/phpunit": "^9.5"
+	}
+	,
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	}
+}
